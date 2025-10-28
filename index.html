@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DJ Calerc | Presskit Oficial</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        background: #000;
+      }
+      body::-webkit-scrollbar {
+        width: 8px;
+      }
+      body::-webkit-scrollbar-track {
+        background: #000;
+      }
+      body::-webkit-scrollbar-thumb {
+        background-color: #8B0000;
+        border-radius: 20px;
+        border: 2px solid #000;
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      .animate-fade-in {
+        animation: fadeIn 0.3s ease-out;
+      }
+      
+      @keyframes pulse-glow {
+        0%, 100% {
+          filter: drop-shadow(0 0 5px #600000);
+        }
+        50% {
+          filter: drop-shadow(0 0 15px #8B0000);
+        }
+      }
+      .animate-pulse-glow {
+        animation: pulse-glow 4s ease-in-out infinite;
+      }
+
+      @keyframes text-shimmer {
+        0% {
+          text-shadow: 0 0 4px #8B0000, 0 0 10px #8B0000;
+        }
+        50% {
+          text-shadow: 0 0 6px #8B0000, 0 0 15px #600000;
+        }
+        100% {
+          text-shadow: 0 0 4px #8B0000, 0 0 10px #8B0000;
+        }
+      }
+      .text-glow {
+        color: #fff;
+        animation: text-shimmer 3s ease-in-out infinite;
+      }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "vite": "https://aistudiocdn.com/vite@^7.1.12",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.0"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/dj-calerc-presskit/assets/index-DaWQz-Fr.js"></script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
