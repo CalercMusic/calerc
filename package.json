@@ -2,7 +2,7 @@
   "name": "dj-calerc-presskit",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://CalercMusic.github.io/dj-calerc-presskit/",
+  "homepage": "https://CalercMusic.github.io/calerc/",
   "type": "module",
   "scripts": {
     "dev": "vite",
